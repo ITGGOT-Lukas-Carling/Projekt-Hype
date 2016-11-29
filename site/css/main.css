@@ -1,0 +1,25 @@
+body {
+  background-image: url("../png/background.png");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 10;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  background-color: yellow;
+    flex-direction: column;
+}
+
+.taskbar {
+flex-direction: column;
+margin: 10px;
+
+}
+
+
+p{
+  flex-grow: 1;
+}
