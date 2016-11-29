@@ -9,14 +9,22 @@ body {
 .header {
   display: flex;
   height: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-color: yellow;
     flex-direction: column;
 }
 
 .taskbar {
 flex-direction: column;
-margin: 10px;
-
+}
+.h2 {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.nav_item {
+margin: 15px;
+margin-left: 5%;
 }
 
 
