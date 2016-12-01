@@ -9,25 +9,32 @@ body {
 .header {
   display: flex;
   height: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:1%;
   background-color: yellow;
-    flex-direction: column;
+  flex-direction: column;
 }
 
+.banner { 
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .taskbar {
-flex-direction: column;
-}
-.h2 {
-  margin-left: 40%;
-  margin-right: 40%;
-}
-.nav_item {
-margin: 15px;
-margin-left: 5%;
+  display:flex;
+  flex-direction: row;
+  align-self: center;
+  line-height: 2%;
 }
 
+.tabs {
+background-color: black;
+padding: 5px;
+margin-left: 3%;   
+}
 
 p{
   flex-grow: 1;
 }
+
