@@ -25,11 +25,17 @@ padding: 30px;
 margin-left: 3%;
    color:white;
 }
+.tabs:hover {
+  color:red;
+}
 
 p{
   flex-grow: 1;
 }
 
+.forum {
+  padding-top:100px;
+}
 .articles {
   display: flex;
   flex-direction: row; 
