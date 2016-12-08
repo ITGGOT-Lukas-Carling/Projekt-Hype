@@ -39,7 +39,6 @@ p{
 .articles {
   display: flex;
   flex-direction: row; 
-  background-color: green;
   height:900px;
   padding: 0px;
   margin-left: 250px;
@@ -49,17 +48,19 @@ p{
 }
 
 .rightdiv {
-  background-color: red;
+background-color: red;
 height: 1000px;
 width:50%;
 display:flex;
+margin:10px;
 flex-direction: column;
 }
 
 .leftdiv {
-  background-color: black;
+  background-color: white;
   height:1000px;
   width:50%;
+  margin:10px;
   display:flex;
   flex-direction: column;
 
