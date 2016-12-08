@@ -23,10 +23,13 @@ body {
 .tabs {
 padding: 30px;
 margin-left: 3%;
+<<<<<<< HEAD
+=======
    color:white;
 }
 .tabs:hover {
   color:red;
+>>>>>>> origin/master
 }
 
 p{
@@ -38,11 +41,16 @@ p{
 }
 .articles {
   display: flex;
+<<<<<<< HEAD
   flex-direction: row; 
+=======
+  flex-direction: row;
+  background-color: green;
+>>>>>>> origin/master
   height:900px;
   padding: 0px;
   margin-left: 250px;
-  margin-top: 150px;
+  margin-top: 250px;
   margin-right: 250px;
 
 }
@@ -97,5 +105,29 @@ z-index: 2;
 background-color: white;
 top: 0;
 left: 0;
+
+}
+
+.gameplay_title {
+  text-align: center;
+  font-size: 150px;
+  letter-spacing: 3px;
+
+}
+
+.rightdiv_gameplay {
+  background-color: red;
+height: 1000px;
+width:50%;
+display:flex;
+flex-direction: column;
+}
+
+.leftdiv_gameplay {
+  background-color: black;
+  height:1000px;
+  width:50%;
+  display:flex;
+  flex-direction: column;
 
 }
