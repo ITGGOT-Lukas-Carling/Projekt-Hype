@@ -23,13 +23,12 @@ body {
 .tabs {
 padding: 30px;
 margin-left: 3%;
-<<<<<<< HEAD
-=======
+
    color:white;
 }
 .tabs:hover {
   color:red;
->>>>>>> origin/master
+origin/master
 }
 
 p{
@@ -41,12 +40,11 @@ p{
 }
 .articles {
   display: flex;
-<<<<<<< HEAD
   flex-direction: row; 
-=======
+
   flex-direction: row;
   background-color: green;
->>>>>>> origin/master
+origin/master
   height:900px;
   padding: 0px;
   margin-left: 250px;
